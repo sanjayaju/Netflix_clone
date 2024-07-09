@@ -1,0 +1,68 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+.smallPoster {
+    cursor: pointer;
+    max-height: 170px;
+    margin-right: 10px;
+}
+
+.poster:hover {
+    transform: scale(1.2);
+}
+
+.smallPoster:hover {
+    transform: scale(1.2);
+}
+
+.pop-up {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.description {
+    color: #ffffff;
+}
+
+.icons-black {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icons-black:focus {
+    outline: none;
+}
